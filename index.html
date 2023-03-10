@@ -1,0 +1,252 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg -tertiary ">
+        <div class="container">
+          <a class="navbar-brand my-4 w-50 " href="#">
+             <img src="images/logo.png" alt="" class="logo mt-3 me-2 ">
+            
+                        <span class="logo_top text-white"> Weather</span>
+                        <h6 class="logo-bottom">tagline goes here</h6>
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse me-2 " id="navbarNav">
+            <ul class="navbar-nav w-100  d-flex justify-content-evenly">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section> 
+        <div class="background">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12">
+                        <form class=" col-12 serach-form d-flex" >
+                            <input type="text" placeholder="Find your location" id="find" class="serach w-100 col-12 " >
+                            <button  id="submit" class="btn btn-info btn-find  ">Find</button>
+                            
+                            
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+      </section>
+
+      <section class="move">
+        <div class="container">
+            <div class=" ">
+                <div class=" row bluebg gx-0 border-row">
+
+                    <div class="col-md-4">
+                        <div class="  ">
+
+                            <div class="d-flex light-col border-first">
+
+                                <div class="w-75 ">
+                                    <p class="text-start gray-wthr m-2 aday " id="fristcol"></p>
+                                </div>
+
+                                <div class="w-25 my-2 d-flex">
+                                    <span class="text-end gray-wthr dayofmonth  aday" id="fristcol-middle"></span>
+                                    <span  class="text-end gray-wthr  aday" id="fristcol-right"></span>
+                                </div>
+                               
+                            </div>
+
+
+
+
+                                
+                            <div class="frist-box p-3" id="firstRow">
+                              
+
+                            </div>
+
+
+
+                        </div>
+                        
+
+                    </div>
+
+
+                    <div class="col-md-4 darkbg">
+                        <div class="">
+
+                            <div class="dark-col">
+                                <p  class="text-center gray-wthr p-2 aday " id="secondcol"></p>
+                            </div>
+
+                            <div id="secondRow">
+                                
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4 ">
+                        <div class="">
+
+                            <div class=" border-third">
+                                <p class="text-center  gray-wthr p-2  aday" id="thirdcol"></p>
+                            </div>
+                            
+                            
+                            <div id="thirdRow">
+                                
+
+                                
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                
+                
+             
+
+
+
+            </div>
+
+        </div>
+
+      </section>
+
+
+      <footer>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8 col-12 mt-4">
+                    <form action="" class="subscribe d-flex " >
+                        <input type="text" placeholder="Enter your email to subscribe..." id="find" class="suc w-100 col-8 " >
+                        <button  id="submit" class="btn btn-info  subscribe-btn">Subscribe</button>
+
+                    </form>
+                  
+                </div>
+
+                <div class="col-md-3 mt-4">
+                    <div>
+                        <div class="d-flex justify-content-evenly icon-home">
+                            <a href="" class="icon-home-inner text-decoration-none text-white"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                            <a href="" class="icon-home-inner text-decoration-none text-white "><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="" class="icon-home-inner text-decoration-none text-white">
+                                <i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="" class="icon-home-inner text-decoration-none text-white">
+                                <i class="fa-brands fa-pinterest"></i></a>
+                           
+    
+                        </div>
+
+                    </div>
+
+                  
+
+                
+
+             
+
+             
+                  
+                  
+
+                </div>
+
+                <div>
+                    <div class="mt-3 col-md-8 col-12">
+                        <p class="gray-wthr footer-inner pb-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                      </div>
+                    </div>
+    
+                </div>
+
+
+
+              
+
+                 
+              
+
+
+            </div>
+
+        </div>
+
+
+      </footer>
+
+
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+   
+
+</body>
+
+</html>
